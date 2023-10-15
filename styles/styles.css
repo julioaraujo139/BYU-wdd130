@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Rubik:wght@300&display=swap');
+
+* {
+    font-size: 22px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
 header {
     background-color:#141e0db3;
 }
@@ -11,6 +19,8 @@ nav a{
     text-align: center;
     color:#ffffff;
     text-decoration: none;
+    font-family: 'Roboto';
+    padding: 35px;
 }
 
 nav a:hover {
@@ -20,6 +30,7 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -32,23 +43,30 @@ nav a:hover {
 
 .home-title {
     color: #000000;
+    font-family: 'lobster';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #000000;
+    font-family: 'roboto';
 }
 
 main section {
     text-align: center;
+    font-family: 'roboto';
 }
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    
 }
 
 .button-box {
     text-align: center;
 }
 
-h4 {
-    color: #000000;
-}
 
 #background {
     height: 725px;
@@ -57,12 +75,35 @@ h4 {
 
 body {
     background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.mountain {
+    padding: 50px 0px 150px;
 }
 
 .book, .join {
     background-color: #141e0db3;
-    color: #000000b3;
+    color:#ffffff;
     text-decoration: none;
+    font-family: 'rubik';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover {
@@ -71,35 +112,54 @@ body {
 }
 
 .msg {
-    background-color: #141e0db3;
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
+h2 {
+    margin: 0;
+}
 .msg h2 {
-    color: #000000b3;
+    color: #ffffff;
+    font-family: 'roboto';
 }
 
 .msg p {
-    color: #000000b3;
+    color: #ffffff;
+    font-family: 'rubik';
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #141e0db3;
-    color: #000000b3;
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
     font-size: 1.2em;
+    font-family: 'roboto';
 }  
 
 footer p a:hover {
     text-decoration: underline;
+    color: #ffffff;
 }    
 
 footer a {
-    color: #000000b3;
     text-decoration: none;
+    font-family: 'roboto';
+    color: #ffffff;
 }
 
 footer a:hover {
     color: #6bd41fb3;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding: 15px;
 }
